@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Slabo+27px&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="https://kit.fontawesome.com/0b9ab2713a.js" crossorigin="anonymous"></script>
+    <title>Black Wing Boutique | Ecommerce Website Design</title>
+</head>
+
+<body>
+    <!--Header for website-->
+    <div class="header">
+        <div class="container">
+
+            <div class="navbar">
+                <div class="logo">
+                    <img src="Images\BWB Logo.png" width="205px" alt="Our Logo">
+                </div>
+
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+
+                <img src="Images\Cart.png" alt="Checkout Cart" width="30px" height="30px">
+                <img src="Images\menu.png" class="menu-icon" onclick="menutoggle()">
+
+            </div> 
+
+            <div class="row">
+                <div class="col-2">
+                    <h1>Add Some Fly To <br> Your Style!</h1>
+                    <p>Creation, Innovation, Aestheticization. <br> We are here to establish more confidence to your fashion sense,<br> while also adding more creative pathways to your mind, <br> which changes how you view fashion in your life.</p>
+                    <a href="" class="btn">Explore Now &#8594;</a>
+                </div>
+
+                <div class="col-2">
+                    <img src="Images\1-schiaparelli-ah2425-looks-couture-66799e934d669.avif" alt="Home page IMAGE">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!--featured categories-->
+    <div class="categories">
+        <div class="row">
+            <div class="col-3">
+                <img src="Images\category-1.jpg" alt="Man in street wear fashion">
+            </div>
+            <div class="col-3">
+                <img src="Images\category-2.jpg" alt="Woman in street wear fashion">
+            </div>
+            <div class="col-3">
+                <img src="Images\category-3.jpg" alt="Woman wearing chain">
+            </div>
+        </div> 
+       
+    </div>
+
+    <!--featured products-->
+    <div class="small-container">
+        <h2 class="title">Women's Fashion Product</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="Images\womensdress.jpg" alt="dress for women">
+                <h4>Dresses</h4>
+                <p>$70.00 - $150.00</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <img src="Images\businesslady.jpg" alt="Business lady">
+                <h4>Corporate Wear </h4>
+                <p>$70.00 - $150.00</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <img src="Images\casualwearcombo.jpg" alt="Lady in cool outfit">
+                <h4>Casual Outfit Combos</h4>
+                <p>$50.00 - $80.00</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <img src="Images\graphicteemodel.jpg" alt="pink graphic tee lady">
+                <h4>Tees</h4>
+                <p>$20.00 - $40.00</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <img src="Images\yellowsneakers.jpg" alt="yellow sneakers">
+                <h4>Sneakers</h4>
+                <p>$60.00 - $100.00</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <img src="Images\heels.jpg" alt="Heels">
+                <h4>Heels</h4>
+                <p>$70.00 - $110.00</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <img src="Images\blingbling.jpg" alt="Woman Jewelry">
+                <h4>Jewelry</h4>
+                <p>$90.00 - $170.00</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <img src="Images\beauty-products.png" alt="beauty product collage">
+                <h4>Beauty Supplies</h4>
+                <p>$10.00 - $60.00</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+
+            <a href="" class="btn">Explore More &#8594;</a>
+        </div>
+    </div>
+
+    <div class="small-container">
+        <h2 class="title">Men's Fashion Product</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="Images\businessman.jpg" alt="Business Man">
+                <h4>Corporate Wear</h4>
+                <p>$70.00 - $150.00</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <img src="Images\mensfit.jpg" alt="Guy fitted up">
+                <h4>Casual Outfit Combos </h4>
+                <p>$50.00 - $80.00</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <img src="Images\menstee.jpg" alt="Man in purple shirt">
+                <h4>Tees</h4>
+                <p>$20.00 - $40.00</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <img src="Images\mensouterwear.jpg" alt="Aura Outerwear Men">
+                <h4>Outerwear & Layers</h4>
+                <p>$80.00 - $140.00</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <img src="Images\mensredsneaks.jpg" alt="Red sneakers">
+                <h4>Sneakers</h4>
+                <p>$60.00 - $100.00</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <img src="Images\gymfit.jpg" alt="Gym Fit">
+                <h4>Active Wear</h4>
+                <p>$30.00 - $60.00</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <img src="Images\mensblingbling.jpg" alt="Fancy watch">
+                <h4>Accessories</h4>
+                <p>$90.00 - $170.00</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <img src="Images\mensgrooming.jpg" alt="mens grooming product collage">
+                <h4>Grooming Essentials</h4>
+                <p>$20.00 - $70.00</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+
+            <a href="" class="btn">Explore More &#8594;</a>
+        </div>
+    </div>
+
+    <!--Offer-->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="Images\chanel.jpg" class="offer-img" alt="expensivebagonsale">
+                </div>
+                <div class="col-5">
+                    <p>Exclusively available for 50% Off</p>
+                    <h1>Large Chanel Classic Handbag </h1>
+                    <small>Now $6,300.00, was $12,600.00. Grained Calfskin & Gold-Tone</small>
+                    <small>Metal Black. 7.7 x 11.8 x 3.9 in (cm). It holds daily essentials </small>
+                    <small>like a large wallet, makeup case, and a tablet. It pairs a </small>
+                    <small>scratch-resistant, textured calfskin with shimmering gold </small>
+                    <small>hardware for a timeless, luxurious aesthetic.</small>
+                    <a href="" class="btn_2">Buy Now &#8594;</a> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--testimonial-->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>There is life before Black Wing Boutique, and there is life after Black Wing Boutique. I have never had this amount of stylish sauce with my outfit in years, I LOVE THIS COMPANY!!!</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <img src="Images/review_1.webp" alt="spiderman">
+                    <h3>Peter Parker</h3>
+                </div>
+
+                    <div class="col-3">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p>Pearson Hardman is one of the best dressed law firms in the country, and Black Wing Boutique is the reason as to why that is the case.</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <img src="Images/review-2.webp" alt="Suits">
+                        <h3>Jessica Pearson</h3>
+                    </div>
+
+                    <div class="col-3">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p>After leaving Sherman Oaks High and going to college, I needed a style change with the way I dress, Black Wing Boutique LITERALLLYYYY saved my life.</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <img src="Images/review_3.webp" alt="neverhaveiever">
+                        <h3>Devi Vishwakumar</h3>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <!--brands-->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-6">
+                    <img src="Images\logo-1.png" alt="Apple Logo">
+                </div>
+
+                <div class="col-6">
+                    <img src="Images\logo-2.png" alt="McDonald's Logo">
+                </div>
+
+                <div class="col-6">
+                    <img src="Images\logo-3.png" alt="Louis Vuitton Logo">
+                </div>
+
+                <div class="col-6">
+                    <img src="Images\logo-4.png" alt="Nike Logo">
+                </div>
+
+                <div class="col-6">
+                    <img src="Images\logo-5.png" alt="DC Logo">
+                </div>
+
+                <div class="col-6">
+                    <img src="Images\logo-6.webp" alt="Juventus Logo">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Black Wing Boutique App</h3>
+                    <p>Available on the Play Store and the App Store</p>
+                    <div class="app-logo">
+                       <img src="Images\playstorelogo.png" alt="play store logo">
+                       <img src="Images\appstorelogo.png" alt="app store logo"> 
+                    </div>   
+                </div>
+
+                <div class="footer-col-2">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li><a href="">Coupon</a></li>
+                        <li><a href="">Blog Post</a></li>
+                        <li><a href="">Return Policy</a></li>
+                        <li><a href="">Join Affiliate</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col-3">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="">Instagram</a></li>
+                        <li><a href="">TikTok</a></li>
+                        <li><a href="">YouTube</a></li>
+                        <li><a href="">X</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr>
+            <p class="copyright"> &copy; Copyright 2026 - MohMoviesnCompanies</p>
+
+        </div>
+    </div>
+
+    <!--js for toggle menu-->
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+
+            MenuItems.style.maxHeight = "0px";
+
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px";
+                }
+                else{
+                    MenuItems.style.maxHeight = "0px";
+                }
+            }
+        </script>
+</body>
+
+</html>

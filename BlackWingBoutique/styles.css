@@ -1,0 +1,328 @@
+*{
+    margin: 0; /*Removes the default outer spacing that web browsers automatically apply to elements (like <body>, <p>, or <h1> tags).*/
+    padding: 0; /* Removes the default inner spacing that browsers apply to certain elements (like unordered lists <ul>).*/
+    box-sizing: border-box; /*Forces padding and borders to be included inside the element's set width and height, rather than adding onto them.*/
+}
+
+body{
+    color: rgb(255, 255, 80);
+    font-family: 'Poppins', sans-serif;
+    background-color:  rgba(255, 0, 174, 0.792);
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px; /* Adds spacing around the navbar content */
+}
+
+nav {
+    flex: 1; /* Makes nav take up remaining horizontal space */
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block; /*An element with display: inline-block will appear on the same line as other inline or inline-block elements.*/
+    list-style-type: none; /* Removes bullet points from the list */
+}
+
+nav ul li {
+    display: inline-block; /* Places list items horizontally */
+    margin-right: 20px; /* Adds spacing between menu items */
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 80);
+}
+
+p {
+    color: rgb(255, 255, 80);
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto; /* Centers container horizontally */
+    padding-left: 25px; /* Adds left inner spacing */
+    padding-right: 25px; /* Adds left inner spacing */
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; /* Allows items to wrap onto new lines on small screens */
+    justify-content: space-around; /* Evenly distributes items with space around them */
+}
+
+.col-2 {
+    flex-basis: 50%; /* Each column takes up half the row width */
+    min-width: 300px;/* Prevents columns from shrinking too small */
+}
+
+.col-2 img {
+    max-width: 100%; /* Makes images responsive to container width */
+    padding: 50px 0; /* Makes images responsive to container width */
+}
+
+.col-2 h1 {
+    font-size: 50px;
+    line-height: 60px; /* Controls spacing between lines of text */
+    margin: 25px 0; /* Adds vertical spacing above and below the heading */
+}
+
+.btn {
+    display: inline-block;
+    background: rgb(255, 255, 80);
+    color: rgba(255, 0, 174, 0.792);
+    padding: 8px 30px; /* Adds inner spacing (top/bottom, left/right) */
+    margin: 30px 0; /* Adds vertical spacing around the button */
+    border-radius: 30px; /* Rounds the button edges into a pill shape */
+    transition: background 0.5s;
+}
+
+.btn:hover{
+    color: rgb(255, 255, 80);
+    background: rgba(255, 0, 174, 0.792);
+}
+
+.header {
+}
+
+.header .row{
+    margin-top: 70px;
+}
+
+.categories {
+    margin: 30px 0;
+}
+
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+
+}
+
+.col-3 img{
+    width: 100%;
+}
+
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    width: 100%;
+    transition: transform 0.5s;
+}
+
+
+
+.col-4 img{
+    width: 300px;
+}
+
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+}
+
+.col-4:hover{
+    transform: translateY(-5px);
+}
+
+.col-5{
+    flex-basis: 50%; /* Each column takes up half the row width */
+    min-width: 300px;/* Prevents columns from shrinking too small */
+}
+
+.col-5 p{
+    padding-left: 20%;
+}
+
+.col-5 h1{
+    padding-left: 20%;
+    font-size: 50px;
+    line-height: 60px; /* Controls spacing between lines of text */
+    margin: 25px 0; /* Adds vertical spacing above and below the heading */
+}
+
+.col-5 small{
+    padding-left: 20%;
+}
+
+.offer{
+    margin-top: 80px;
+    padding: 30px 0;
+}
+
+.btn_2 {
+    display: inline-block;
+    padding-left: 4%;
+    background: rgb(255, 255, 80);
+    color: rgba(255, 0, 174, 0.792);
+    padding: 8px 250px; /* Adds inner spacing (top/bottom, left/right) */
+    margin: 30px 0; /* Adds vertical spacing around the button */
+    border-radius: 30px; /* Rounds the button edges into a pill shape */
+    transition: background 0.5s;
+}
+
+.btn_2:hover{
+    color: rgb(255, 255, 80);
+    background: rgba(255, 0, 174, 0.792);
+}
+
+/*testimonial*/
+.testimonial{
+   padding-top: 100px; 
+}
+.testimonial .col-3{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.testimonial .col-3 img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.testimonial .col-3:hover{
+    transform: translateY(-10px);
+}
+
+.col-3 p{
+    font-size: 12px;
+    margin: 12px 0;
+}
+
+.testimonial .col-3 h3{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.brands{
+    margin: 100px auto;
+}
+.col-6{
+    width: 160px;
+}
+
+.col-6 img{
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.col-6 img:hover{
+    filter: grayscale(0);
+}
+
+
+/*Footer*/
+.footer{
+    background: black;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+
+.footer h3{
+    margin-bottom: 20px;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-col-1{
+    flex-basis: 30%;
+}
+
+
+.footer-col-2, .footer-col-3{
+    flex-basis: 12%;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.app-logo{
+    margin-top: 20px;
+}
+
+.app-logo img{
+    width: 140px;
+}
+
+.footer hr{
+    background: black;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.copyright{
+    text-align: center;
+}
+
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+
+/* media query for menu */ /* whatever code we write in this query, the css
+is only applicable for devices whose width is less than 800 px*/
+@media only screen and (max-width: 800px){
+
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5;
+    }
+
+    nav ul li{
+        display: block;
+        margin-right: 150px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+     nav ul li a{
+        color: rgb(255, 255, 80);
+    }
+
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+
+}
+
+/* media query for less than 600 screen size*/
+
+@media only screen and (max-width: 600px){
+    .row{
+        text-align: center;  
+    }
+    .col-2, .col-3, .col-4{
+        flex-basis: 100%;
+    }
+}
